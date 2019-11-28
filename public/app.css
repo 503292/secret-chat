@@ -1,0 +1,77 @@
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  color: #0f0;
+  font-family: "Consolas", monospace;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.title {
+  margin: 0;
+}
+.wrapDot {
+  display: flex;
+  justify-content: right;
+  text-align: end;
+}
+
+.dotOnOff {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  background-color: tomato;
+  border: none;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.status {
+  text-align: center;
+}
+.main {
+}
+
+.messages {
+  margin-left: 1em;
+  padding: 0;
+  list-style: none;
+}
+.oneMessage {
+}
+
+.formInput {
+  display: flex;
+}
+
+.input,
+.label {
+  display: block;
+}
+
+.input {
+  outline: none;
+  border: none;
+  background-color: black;
+  color: #0f0;
+  padding: 1em 0.5em;
+  display: block;
+  font-size: 1.5em;
+  font-family: "Consolas", monospace;
+  flex: 1;
+}
+
+label {
+  display: block;
+  padding: 1em 0.5em;
+  font-size: 1.5em;
+}

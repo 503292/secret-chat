@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>DoDoChat</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="title">DoDoChat</h1>
+      <div class="wrapDot">
+        <div class="dotOnOff"></div>
+        <span id="status" class="status">OFFLINE</span>
+      </div>
+    </header>
+
+    <main class="main">
+      <ul id="messages" class="messages"></ul>
+
+      <form id="form" class="formInput">
+        <label for="message" class="label">&gt;</label>
+        <input
+          type="text"
+          id="input"
+          class="input"
+          required
+          autofocus
+          autocomplete="off"
+          placeholder="enter ..."
+        />
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
